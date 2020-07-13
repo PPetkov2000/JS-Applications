@@ -5,9 +5,7 @@ const root = document.getElementById("root");
 function attachEvents() {
   btnLoadTowns.addEventListener("click", loadTowns);
 
-  async function loadTowns(e) {
-    e.preventDefault();
-
+  async function loadTowns() {
     const towns = townsInput.value.split(", ");
     const source = await fetch("./towns-template.hbs").then((res) =>
       res.text()
