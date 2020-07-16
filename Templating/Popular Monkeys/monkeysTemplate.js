@@ -5,7 +5,7 @@ async function getMonkeys() {
 
   document.querySelectorAll(".info").forEach((btn) => {
     btn.addEventListener("click", function () {
-      const info = btn.nextElementSibling;
+      const info = btn.parentElement.querySelector("p");
       if (info.style.display === "none") {
         info.style.display = "block";
       } else {
