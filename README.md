@@ -1,4 +1,4 @@
-# JS-Applications
+![JS-Applications](https://github.com/PPetkov2000/JS-Applications/blob/master/JSApplications.jpg)
 
 ## Умения
 
