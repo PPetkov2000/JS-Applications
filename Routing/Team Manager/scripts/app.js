@@ -8,6 +8,9 @@ const app = Sammy("#main", function () {
 
   this.get("#/register", controllers.user.get.register);
   this.get("#/login", controllers.user.get.login);
+  
+  this.post("#/register", controllers.user.post.register);
+  this.post("#/login", controllers.user.post.login);
 });
 
 app.run("#/home");
