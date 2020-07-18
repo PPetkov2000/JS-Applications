@@ -13,5 +13,8 @@ export default {
       });
     },
   },
-  post: {},
+  post: {
+    register() {},
+    login() {}
+  },
 };
