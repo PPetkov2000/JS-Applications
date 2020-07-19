@@ -8,4 +8,7 @@ export default {
   get(id) {
     return firebase.firestore().collection("teams").doc(id).get();
   },
+  join(id, data) {
+    return firebase.firestore().collection("teams").doc(id).update(data);
+  },
 };
