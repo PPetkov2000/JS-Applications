@@ -25,9 +25,4 @@ export default function (ctx, template) {
   }
 
   return ctx.loadPartials(partials);
-
-  // return ctx.loadPartials({
-  //   header: "../templates/common/header.hbs",
-  //   footer: "../templates/common/footer.hbs",
-  // });
 }
