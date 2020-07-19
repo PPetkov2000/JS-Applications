@@ -11,4 +11,7 @@ export default {
   join(id, data) {
     return firebase.firestore().collection("teams").doc(id).update(data);
   },
+  leave(id) {
+    return firebase.firestore().collection("teams").doc(id).delete();
+  },
 };
