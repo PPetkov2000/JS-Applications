@@ -8,10 +8,23 @@ export default {
   get(id) {
     return firebase.firestore().collection("teams").doc(id).get();
   },
-  join(id, data) {
+  update(id, data) {
     return firebase.firestore().collection("teams").doc(id).update(data);
   },
-  leave(id) {
+  remove(id) {
     return firebase.firestore().collection("teams").doc(id).delete();
+  },
+  createUser(data) {
+    return firebase.firestore().collection("users").add(data);
+  },
+  removeUser(id) {
+    return firebase.firestore().collection("users").doc(id).delete();
+  },
+  getUser(prop, value) {
+    return firebase
+      .firestore()
+      .collection("users")
+      .where(prop, "==", value)
+      .get();
   },
 };
