@@ -29,13 +29,15 @@ export default {
   post: {
     register(ctx) {
       const { username, password, repeatPassword } = ctx.params;
-
-      models.user
-        .register(username, password)
-        .then(() => {
-          ctx.redirect("#/login");
-        })
-        .catch(console.error);
+      
+      if(password === repeatPassword) {   
+        models.user
+          .register(username, password)
+          .then(() => {
+            ctx.redirect("#/login");
+          })
+          .catch(console.error);
+      }
     },
     login(ctx) {
       const { username, password } = ctx.params;
