@@ -19,4 +19,5 @@
 - Templating
 - Routing and Architecture
 - Design Patterns and Best Practices
+- Web Components
 - Project Architecture
