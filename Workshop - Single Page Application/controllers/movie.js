@@ -1,1 +1,6 @@
-movies;
+export default {
+  get: {},
+  post: {},
+  put: {},
+  delete: {}
+}
