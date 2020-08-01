@@ -1,1 +1,4 @@
-user;
+export default {
+  get: {},
+  post: {},
+}
