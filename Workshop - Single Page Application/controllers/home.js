@@ -1,1 +1,4 @@
-home;
+export default {
+  get: {},
+  post: {},
+}
