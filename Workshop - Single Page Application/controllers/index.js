@@ -1,9 +1,9 @@
-import home from "./controllers/home.js";
-import user from "./controllers/user.js";
-import movie from "./controllers/movie.js";
+import home from "./home.js";
+import user from "./user.js";
+import movie from "./movie.js";
 
 export default {
   home,
   user,
-  movie
-}
+  movie,
+};
