@@ -1,5 +1,4 @@
 const elements = {
-  loading: document.getElementById("loadingBox"),
   success: document.getElementById("successBox"),
   error: document.getElementById("errorBox"),
 };
