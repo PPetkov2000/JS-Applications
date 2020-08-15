@@ -21,3 +21,7 @@
 - Design Patterns and Best Practices
 - Web Components
 - Project Architecture
+
+## Сертификат
+
+![alt text](https://github.com/PPetkov2000/JS-Applications/blob/master/js-advanced-certificate.jpg)
