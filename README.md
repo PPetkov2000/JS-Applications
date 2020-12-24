@@ -24,4 +24,4 @@
 
 ## Сертификат
 
-![alt text](https://github.com/PPetkov2000/JS-Applications/blob/master/js-applications-certificate.jpg)
+![alt text](https://github.com/PPetkov2000/JS-Applications/blob/master/JS Applications - June 2020 - Certificate.jpg)
