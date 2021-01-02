@@ -1,5 +1,10 @@
 ![JS-Applications](https://github.com/PPetkov2000/JS-Applications/blob/master/JSApplications.jpg)
 
+## Сертификат
+
+![alt text](https://github.com/PPetkov2000/JS-Applications/blob/master/JS%20Applications%20-%20June%202020%20-%20Certificate.jpeg)
+
+
 ## Умения
 
 - Какво е HTTP и как да правим заявки
@@ -21,7 +26,3 @@
 - Design Patterns and Best Practices
 - Web Components
 - Project Architecture
-
-## Сертификат
-
-![alt text](https://github.com/PPetkov2000/JS-Applications/blob/master/JS%20Applications%20-%20June%202020%20-%20Certificate.jpeg)
