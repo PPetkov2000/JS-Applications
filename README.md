@@ -2,7 +2,7 @@
 
 ## Сертификат
 
-![alt text](https://github.com/PPetkov2000/JS-Applications/blob/master/JS%20Applications%20-%20June%202020%20-%20Certificate.jpeg)
+<img src="https://github.com/PPetkov2000/JS-Applications/blob/master/JS%20Applications%20-%20June%202020%20-%20Certificate.jpeg" width="450" height="1000">
 
 
 ## Умения
